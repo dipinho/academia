@@ -1,6 +1,6 @@
 <h2>Principais conceitos de mapeamento objeto relacional(ORM) usando Spring Data JPA.</h2>
 
-Uma API RESTful desenvolvida com ênfase na modelagem de suas entidades, no dominio de uma academia.
+Um pequeno projeto de academia, API RESTful desenvolvida com ênfase na modelagem de suas entidades.
 
 
 <h2>🛠 Tecnologias Utilizadas</h2>
