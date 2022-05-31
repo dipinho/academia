@@ -39,11 +39,69 @@ public class Aluno {
 
   private String bairro;
 
-  private LocalDate dataDeNascimento;
+  public LocalDate getDataDeNascimento() {
+	return dataDeNascimento;
+}
+
+
+public void setDataDeNascimento(LocalDate dataDeNascimento) {
+	this.dataDeNascimento = dataDeNascimento;
+}
+
+
+public String getNome() {
+	return nome;
+}
+
+
+public void setNome(String nome) {
+	this.nome = nome;
+}
+
+
+public String getCpf() {
+	return cpf;
+}
+
+
+public void setCpf(String cpf) {
+	this.cpf = cpf;
+}
+
+
+public String getBairro() {
+	return bairro;
+}
+
+
+public void setBairro(String bairro) {
+	this.bairro = bairro;
+}
+
+
+private LocalDate dataDeNascimento;
   
   
   @OneToMany(mappedBy = "aluno", fetch = FetchType.LAZY) // quando tiver requisicao, vai carregar todas as informacões MENOS a lista de avaliacao fisica
   @JsonIgnore
   private List<AvaliacaoFisica> avaliacoes = new ArrayList<>();
+
+
+public void setNome(Object nome2) {
+	// TODO Auto-generated method stub
+	
+}
+
+
+public void setCpf() {
+	// TODO Auto-generated method stub
+	
+}
+
+
+public void setCpf(Object cpf2) {
+	// TODO Auto-generated method stub
+	
+}
 
 }
