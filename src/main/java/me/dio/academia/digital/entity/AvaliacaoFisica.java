@@ -15,6 +15,7 @@ import javax.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import me.dio.academia.digital.entity.form.AvaliacaoFisicaForm;
 
 
 @Data
@@ -41,5 +42,20 @@ public class AvaliacaoFisica {
 
   @Column(name = "altura_atual")
   private double altura;
+
+public void setAluno(Aluno aluno2) {
+	// TODO Auto-generated method stub
+	
+}
+
+public static void setPeso(double d) {
+	// TODO Auto-generated method stub
+	
+}
+
+public void setAltura(double d) {
+	// TODO Auto-generated method stub
+	
+}
 
 }
