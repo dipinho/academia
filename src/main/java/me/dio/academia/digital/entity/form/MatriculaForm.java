@@ -17,4 +17,8 @@ import lombok.NoArgsConstructor;
   @Positive(message = "O Id do aluno precisa ser positivo.")	
   private Long alunoId;
 
+public Long getAlunoId() {
+	return null;
+}
+
 }

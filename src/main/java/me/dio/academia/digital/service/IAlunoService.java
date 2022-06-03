@@ -41,4 +41,6 @@ public interface IAlunoService {
    * @param id - id do Aluno que será removido.
    */
   void delete(Long id);
+
+List<Aluno> getAll(String dataDeNascimento);
 }
