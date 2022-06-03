@@ -51,12 +51,11 @@ public class AlunoServiceImpl implements IAlunoService{
 	}
 
 	public List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id) {
-		AlunoRepository.getAllAvaliacaoFisica
-		return null;
+		Aluno aluno = repository.findById(id).get();
+		return aluno.getAvaliacoes();
 	}
 
 	public List<Aluno> getAll(String dataDeNacimento) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

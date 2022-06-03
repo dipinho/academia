@@ -88,20 +88,22 @@ private LocalDate dataDeNascimento;
 
 
 public void setNome(Object nome2) {
-	// TODO Auto-generated method stub
 	
 }
 
 
 public void setCpf() {
-	// TODO Auto-generated method stub
 	
 }
 
 
 public void setCpf(Object cpf2) {
-	// TODO Auto-generated method stub
 	
+}
+
+
+public List<AvaliacaoFisica> getAvaliacoes() {
+	return null;
 }
 
 }
